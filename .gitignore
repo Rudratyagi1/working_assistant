@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables
+.env
+*.env
+
+# Logs
+logs/
+*.log
+
+# Python Bytecode / cache
+*.egg
+*.egg-info/
+dist/
+build/
+
+# macOS / Linux / Windows
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Optional: Pytest cache
+.pytest_cache/

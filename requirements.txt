@@ -1,0 +1,35 @@
+# Web Server
+fastapi
+uvicorn[standard]
+
+# Twilio SDK
+twilio
+
+# Audio I/O and Processing
+numpy
+pydub
+soundfile
+ffmpeg-python
+wavio
+pyaudio   # <-- microphone/streaming, if you need it
+
+# Speech-to-Text
+openai-whisper
+faster_whisper
+
+# Text-to-Speech
+gtts
+
+# WebSockets (for real-time)
+websockets
+
+# Environment Handling
+python-dotenv
+python-multipart
+
+# Optional: Google Generative AI (if you’re using Gemini API)
+google-generativeai
+genai
+google-genai
+pyttsx3
+sounddevice
