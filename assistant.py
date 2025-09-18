@@ -1,5 +1,5 @@
 # app/assistant.py
-from config import client ,speak
+from app.config import client ,speak
 
 def ask_gemini(prompt: str, model_name: str = "gemini-2.0-flash-exp") -> str:
     """Send text to Gemini / GPT model and get response"""

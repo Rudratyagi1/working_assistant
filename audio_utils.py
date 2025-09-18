@@ -5,7 +5,7 @@ import tempfile
 import numpy as np
 import sounddevice as sd
 from pathlib import Path
-from config import whisper_model, WHISPER_MODEL
+from app.config import whisper_model, WHISPER_MODEL
 
 
 # ------------------------------
